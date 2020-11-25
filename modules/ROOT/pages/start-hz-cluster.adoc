@@ -6,10 +6,7 @@
 Hazelcast Cloud::
 +
 --
-You can create a cluster on Hazelcast cloud. Once you get your `discovery token`
-you can use it as a service in your applications via Hazelcast client.
-See https://cloud.hazelcast.com[Hazelcast Cloud] and the https://docs.cloud.hazelcast.com/docs[documentation]
-for details.
+You can easily create a Hazelcast Cluster on https://cloud.hazelcast.com[Hazelcast Cloud] with just a few clicks. See https://docs.cloud.hazelcast.com/docs/getting-started[Getting Started] documentation for details.
 --
 
 Docker Image::
