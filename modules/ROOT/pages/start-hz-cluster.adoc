@@ -1,0 +1,44 @@
+=== Starting Hazelcast Cluster
+
+[tabs]
+====
+
+Hazelcast Cloud::
++
+--
+You can create a cluster on Hazelcast cloud. Once you get your `discovery token`
+you can use it as a service in you applications via Hazelcast client.
+See https://cloud.hazelcast.com[Hazelcast Cloud] and the https://docs.cloud.hazelcast.com/docs[documentation]
+for details.
+--
+
+Docker Image::
++
+--
+You can start members inside Docker containers. See the https://github.com/hazelcast/hazelcast-docker[documentation] for details.
+[source, bash]
+----
+docker run hazelcast/hazelcast:$HAZELCAST_VERSION
+----
+--
+
+Hazelcast CLI::
++
+--
+You can start members via Hazelcast CLI. See the https://github.com/hazelcast/hazelcast-command-line[documentation] for installation instructions and details.
+[source, bash]
+----
+$ hz start
+----
+--
+
+Download Packages::
++
+--
+You can start members via `start` script in https://hazelcast.org/imdg/download[IMDG bundle].
+[source, bash]
+----
+$ sh bin/start.sh 
+----
+--
+====
