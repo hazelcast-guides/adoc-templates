@@ -7,7 +7,7 @@ Hazelcast Cloud::
 +
 --
 You can create a cluster on Hazelcast cloud. Once you get your `discovery token`
-you can use it as a service in you applications via Hazelcast client.
+you can use it as a service in your applications via Hazelcast client.
 See https://cloud.hazelcast.com[Hazelcast Cloud] and the https://docs.cloud.hazelcast.com/docs[documentation]
 for details.
 --
@@ -25,7 +25,7 @@ docker run hazelcast/hazelcast:$HAZELCAST_VERSION
 Hazelcast CLI::
 +
 --
-You can start members via Hazelcast CLI. See the https://github.com/hazelcast/hazelcast-command-line[documentation] for installation instructions and details.
+You can start members via Hazelcast CLI. See the https://github.com/hazelcast/hazelcast-command-line[documentation] for the installation instructions and details.
 [source, bash]
 ----
 $ hz start
