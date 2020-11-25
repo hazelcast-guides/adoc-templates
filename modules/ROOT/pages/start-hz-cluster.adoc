@@ -6,7 +6,7 @@
 Hazelcast Cloud::
 +
 --
-You can easily create a Hazelcast Cluster on https://cloud.hazelcast.com[Hazelcast Cloud] with just a few clicks. See https://docs.cloud.hazelcast.com/docs/getting-started[Getting Started] documentation for details.
+You can easily create a Hazelcast cluster on https://cloud.hazelcast.com[Hazelcast Cloud] with just a few clicks. See https://docs.cloud.hazelcast.com/docs/getting-started[Getting Started] documentation for details.
 --
 
 Docker Image::
